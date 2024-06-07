@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="mise_en_page_indice_enigme_carte.css">
+        <link rel="stylesheet" href="../layout/layout_indice_enigme_carte.css">
         <title>
             Escape Game | Indice carte antique
         </title>
@@ -12,6 +12,6 @@
         "Les pyramides sont non seulement des monuments funéraires, mais aussi des témoignages de la grandeur et de la puissance des anciens pharaons égyptiens. Elles sont le symbole de leur immortalité dans l'au-delà." <br><br>
         "Les Égyptiens ont travaillé durant des décennies pour construire ces pyramides colossales, témoignant de leur dévouement envers leurs rois et envers l'au-delà." <br><br>
  
-        <li><a href="library.php">Retour à la salle</a></li></center>
+        <li><a href="../library.php">Retour à la salle</a></li></center>
     </body>
 </html>

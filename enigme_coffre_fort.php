@@ -1,12 +1,12 @@
 <html>
     <head>
-        <link rel="stylesheet" href="mise_en_page_coffre_fort.css">
+        <link rel="stylesheet" href="layout/layout_coffre_fort.css">
         <title>
             Escape Game | Coffre Fort
         </title>
     </head>
     <body>
-        <form action="verification_coffre_fort.php" target="" method="post">
+        <form action="verification/verification_coffre_fort.php" target="" method="post">
             Vous entrez dans une pièces vide avec seulement un grand coffre au centre. <br>
             Pris de curiosité vous cherchez un moyen de l'ouvrir pour découvrir ce qu'il <br>
             peut bien renfermer. <br>

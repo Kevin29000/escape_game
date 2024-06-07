@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="mise_en_page_indice_enigme_carte.css">
+        <link rel="stylesheet" href="../layout/layout_indice_enigme_carte.css">
         <title>
             Escape Game | Indice carte antique
         </title>
@@ -11,6 +11,6 @@
         "Philippe II de Macédoine est considéré comme l'un des plus grands stratèges de l'Antiquité, ayant réussi à unifier les cités-états grecques sous l'autorité de la Macédoine." <br><br>
         "Sous le règne d'Alexandre le Grand, fils de Philippe II, la Macédoine est devenue l'une des plus grandes puissances du monde antique, étendant son empire à travers l'Asie et l'Égypte." <br><br>
  
-        <li><a href="library.php">Retour à la salle</a></li></center>
+        <li><a href="../library.php">Retour à la salle</a></li></center>
     </body>
 </html>

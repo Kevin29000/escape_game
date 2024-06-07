@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="mise_en_page_enigme_carte.css">
+        <link rel="stylesheet" href="layout/layout_enigme_carte.css">
         <title>
             Escape Game | Enigme de la carte antique
         </title>

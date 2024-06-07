@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="mise_en_page_indice_enigme_carte.css">
+        <link rel="stylesheet" href="../layout/layout_indice_enigme_carte.css">
         <title>
             Escape Game | Indice carte antique
         </title>
@@ -12,6 +12,6 @@
         ce sont les seuls dieux auxquels ils aient de tout temps sacrifié ; mais ils ont appris des Assyriens et des Arabes à sacrifier aussi à l'Aphrodite Céleste : cette dernière <br>
         se nomme chez les Assyriens Mylitta, chez les Arabes Aliat, chez les Perses Mitra ». <br><br>
  
-        <li><a href="library.php">Retour à la salle</a></li></center>
+        <li><a href="../library.php">Retour à la salle</a></li></center>
     </body>
 </html>

@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="mise_en_page_accueil.css">
+        <link rel="stylesheet" href="layout/layout_accueil.css">
         <title>
             Escape Game | Accueil
         </title>

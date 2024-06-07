@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="mise_en_page_indice_enigme_carte.css">
+        <link rel="stylesheet" href="../layout/layout_indice_enigme_carte.css">
         <title>
             Escape Game | Indice carte antique
         </title>
@@ -11,6 +11,6 @@
         "Les temples de Babylone sont grandioses, avec leurs ziggurats imposantes et leurs autels dédiés aux dieux et déesses de la mythologie babylonienne." <br><br>
         "Les rues de Babylone sont animées jour et nuit, avec des commerçants, des artisans et des voyageurs venant de tous horizons pour profiter de la richesse et de la diversité de la ville." <br><br>
  
-        <li><a href="library.php">Retour à la salle</a></li></center>
+        <li><a href="../library.php">Retour à la salle</a></li></center>
     </body>
 </html>
