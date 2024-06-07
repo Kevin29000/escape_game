@@ -12,7 +12,7 @@
             <div class="clickable-area indice_lettres" onclick="location.href='indices/indice_enigme_thermopyles_3.php';"></div>
         </div>
 
-        <form action="verification_enigme_thermopyles.php" target="" method="post">
+        <form action="verification/verification_enigme_thermopyles.php" target="" method="post">
             Saisir le nom de la bataille : <input type="text" name="reponse_thermopyles">
             <input type="submit" id="submit" value="Valider">
 	    </form>

@@ -10,11 +10,11 @@ $debut="<!doctype html>
     $corps="";
     if (($_POST['reponse_coffre_fort']=="23251181921"))
          {
-            header('location:accueil.php?message=Bravo vous avez trouvé la solution !');
+            header('location:../accueil.php?message=Bravo vous avez trouvé la solution !');
          }
     else
         {
-            header('location:connexion.php?message=Erreur de connexion');
+            header('location:../enigme_carte.php?message=Les réponses sont incorrects');
         }
 
 $fin="</body></html>";

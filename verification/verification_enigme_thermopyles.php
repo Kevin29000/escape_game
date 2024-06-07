@@ -10,11 +10,11 @@ $debut="<!doctype html>
     $corps="";
         if (($_POST['reponse_thermopyles']=="Thermopyles"))
         {
-        header('location:accueil.php?message=Bravo vous avez trouvé la solution !');
+        header('location:../accueil.php?message=Bravo vous avez trouvé la solution !');
         }
         else
         {
-            header('location:enigmes_thermopyles.php?message=La réponse est incorrect');
+            header('location:../enigmes_thermopyles.php?message=La réponse est incorrect');
         }
 
 $fin="</body></html>";

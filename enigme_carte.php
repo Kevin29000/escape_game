@@ -6,7 +6,7 @@
         </title>
     </head>
     <body>
-        <form action="verification_enigme_carte.php" target="" method="post">
+        <form action="verification/verification_enigme_carte.php" target="" method="post">
             Un très ancien voyageur anonyme à laisser cette carte antique accompagné d'un parchemin ou il <br>
             raconte son parcours à travers le monde.
 
