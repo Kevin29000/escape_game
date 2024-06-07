@@ -4,7 +4,7 @@ body, html {
     background-image: url(../images/map.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1400px 620px;
     background-attachment: fixed;
 }
 .clickable-area {
@@ -18,28 +18,28 @@ body, html {
     width: 150px;
     height: 150px;
 }
-.dining-room {
+.drinng-room {
     top: 265px;
-    left: 600px;
-    width: 150px;
-    height: 150px;
+    left: 590px;
+    width: 170px;
+    height: 170px;
 }
 .library {
-    top: 400px;
+    top: 350px;
     left: 330px;
-    width: 150px;
+    width: 170px;
     height: 150px;
 }
 .auting-room {
     top: 150px;
     left: 850px;
-    width: 150px;
+    width: 180px;
     height: 150px;
 }
 .droiwing-room {
-    top: 400px;
+    top: 350px;
     left: 850px;
-    width: 150px;
+    width: 200px;
     height: 150px;
 }
 

@@ -9,8 +9,8 @@
         <p class="text">Votre exploration est limitée au premier étage du au mauvais état des escaliers et des étages supérieurs</p>
 
         <div class="map-container">
-            <div class="clickable-area entrance" onclick="location.href='entrence.php';"></div>
-            <div class="clickable-area dining-room" onclick="location.href='dining-room.html';"></div>
+            <div class="clickable-area entrance" onclick="location.href='enigme_statues.php';"></div>
+            <div class="clickable-area drinng-room" onclick="location.href='dining-room.html';"></div>
             <div class="clickable-area library" onclick="location.href='library.php';"></div>
             <div class="clickable-area auting-room" onclick="location.href='enigme_thermopyles.php';"></div>
             <div class="clickable-area droiwing-room" onclick="location.href='enigme_coffre_fort.php';"></div>
