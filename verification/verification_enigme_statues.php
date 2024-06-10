@@ -8,7 +8,7 @@ $debut="<!doctype html>
     </head>
     <body>";
     $corps="";
-    if (($_POST['reponse_enigme_statues_1']=="Zeus") && ($_POST['reponse_enigme_statues_2']=="Egypte") && ($_POST['reponse_enigme_statues_3']=="Babylone") && ($_POST['reponse_enigme_statues_4']=="Macédoine") && ($_POST['reponse_enigme_statues_5']=="Macédoine"))
+    if (($_POST['reponse_enigme_statues_1']=="Zeus") && ($_POST['reponse_enigme_statues_2']=="Athéna") && ($_POST['reponse_enigme_statues_3']=="Poséidon") && ($_POST['reponse_enigme_statues_4']=="Hermès") && ($_POST['reponse_enigme_statues_5']=="Artémis"))
     {
        header('location:../accueil.php?message=Bravo vous avez trouvé la solution !');
     }

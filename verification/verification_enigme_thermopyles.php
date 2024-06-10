@@ -4,17 +4,22 @@ $debut="<!doctype html>
     <head>
         <title>
             Verification enigme thermopyle
+            <script src='../test.js'></script>
         </title>
     </head>
     <body>";
     $corps="";
         if (($_POST['reponse_thermopyles']=="Thermopyles"))
         {
-        header('location:../accueil.php?message=Bravo vous avez trouvé la solution !');
+            $corps.="<script type='text/javascript'>
+                        function togglePopup1(){
+                            document.getElementById('correct-popup').classList.toggle('active');
+                            }
+                    </script>";
         }
         else
         {
-            header('location:../enigmes_thermopyles.php?message=La réponse est incorrect');
+            $corps.="<script type='text/javascript'>togglePopup2()</script>";
         }
 
 $fin="</body></html>";

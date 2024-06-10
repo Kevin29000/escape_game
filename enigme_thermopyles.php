@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="layout/layout_enigme_thermopyles.css">
+        <script src="app.js"></script>
         <title>
             Escape Game | Enigme thermopyles
         </title>
@@ -12,11 +13,29 @@
             <div class="clickable-area indice_lettres" onclick="location.href='indices/indice_enigme_thermopyles_3.php';"></div>
         </div>
 
-        <form action="verification/verification_enigme_thermopyles.php" target="" method="post">
-            Saisir le nom de la bataille : <input type="text" name="reponse_thermopyles">
-            <input type="submit" id="submit" value="Valider">
+        <form name="enigme_thermopyles" action="#"><!-- <form action="verification/verification_enigme_thermopyles.php" target="" method="post"> -->
+            Saisir le nom de la bataille : <input type="text" name="test_reponse" id="test_reponse">
+            <button onclick="checkFormEnigmeThermopyles()">Valider</button> 
 	    </form>
 
-        <li><a href="map.php">Carte</a></li>
+        <li><a href="map.php">Carte</a></li><br>
+
+        <div class="popup" id="correct-popup">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="togglePopup1()">&times;</div>
+                <h1>Bonne réponse</h1>
+                <p>Bravo, vous avez trouvé la solution ! Vous pouvez passer à la salle suivante.</p>
+            </div>
+        </div>
+
+        <div class="popup" id="incorrect-popup">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                <h1>Mauvaise réponse</h1>
+                <p>La réponse est incorrecte. Veuillez réessayer.</p>
+            </div>
+        </div>
     </body>
 </html>
