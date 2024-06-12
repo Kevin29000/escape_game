@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
     <head>
         <link rel="stylesheet" href="layout/layout_enigme_thermopyles.css">
