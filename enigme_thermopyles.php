@@ -8,6 +8,23 @@
         </title>
     </head>
     <body>
+        <div id="countdown">
+            <div class="tag_countdown">
+                <span class="label_countdown">Temps restant</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Heures</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Minutes</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Secondes</span>
+            </div>
+        </div> 
         <div class="map-container">
             <div class="clickable-area indice_300" onclick="location.href='indices/indice_enigme_thermopyles.php';"></div>
             <div class="clickable-area indice_gps" onclick="location.href='indices/indice_enigme_thermopyles_2.php';"></div>

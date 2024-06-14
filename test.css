@@ -1,3 +1,45 @@
+#countdown {
+    display: flex; /*Permet des les garde sur la même ligne au lieu de faire un retour à la ligne*/
+    align-items: center; /*Centre les éléments à l'intérieur de la div*/
+    justify-content: center;
+    gap: 10px; /*espace entre chaque div countdown*/
+}
+
+.tag_countdown {
+    width: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(22, 180, 1, 0.705); /*#000*/
+    opacity: 0.9; /*Gerer la transparance*/
+    color: #FFF;
+    text-align: center;
+}
+
+.value_countdown {
+    display: block;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.label_countdown {
+    text-transform: uppercase; /*Mette le texte en majuscule*/
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.countdown_end{
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    background: red;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+/*
 .popup .overlay {
     position: fixed;
     top: 0px;
@@ -47,3 +89,4 @@
     transition: all 800ms ease-in-out;
     transform: translate(-50%, -50%) scale(1);
 }
+*/

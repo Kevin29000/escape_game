@@ -2,11 +2,29 @@
 <html>
     <head>
         <link rel="stylesheet" href="layout/layout_map.css">
+        <script src="app.js"></script>
         <title>
             Escape Game | Carte
         </title>
     </head>
     <body>
+        <div id="countdown">
+            <div class="tag_countdown">
+                <span class="label_countdown">Temps restant</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Heures</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Minutes</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Secondes</span>
+            </div>
+        </div>  
         <p class="text">Votre exploration est limitée au premier étage du au mauvais état des escaliers et des étages supérieurs</p>
 
         <div class="map-container">

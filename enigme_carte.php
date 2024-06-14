@@ -8,6 +8,23 @@
         </title>
     </head>
     <body>
+        <div id="countdown">
+            <div class="tag_countdown">
+                <span class="label_countdown">Temps restant</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Heures</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Minutes</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Secondes</span>
+            </div>
+        </div> 
         <form name="enigme_carte" action="#"><!-- <form action="verification/verification_enigme_carte.php" target="" method="post"> -->
             Un très ancien voyageur anonyme à laisser cette carte antique accompagné d'un parchemin ou il <br>
             raconte son parcours à travers le monde.

@@ -4,10 +4,31 @@
         <title>Test</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="test.css">
-        <script src="app.js"></script>
+        <script src="test.js"></script>
     </head>
     <body>
-        <div class="popup" id="correct-popup">
+        <div id="countdown">
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Jours</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Heures</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Minutes</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Secondes</span>
+            </div>
+        </div>    
+    </body>
+</html>
+
+<!--<div class="popup" id="correct-popup">
             <div class="overlay"></div>
             <div class="content">
                 <div class="close-btn" onclick="togglePopup1()">&times;</div>
@@ -26,6 +47,4 @@
         </div>
 
         <button onclick="togglePopup1()">Show Popup correct</button> 
-        <button onclick="togglePopup2()">Show Popup incorrect</button>
-    </body>
-</html>
+        <button onclick="togglePopup2()">Show Popup incorrect</button>-->

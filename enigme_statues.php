@@ -7,6 +7,23 @@
         </title>
     </head>
     <body>
+        <div id="countdown">
+            <div class="tag_countdown">
+                <span class="label_countdown">Temps restant</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Heures</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Minutes</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Secondes</span>
+            </div>
+        </div> 
         <div class="map-container">
             <div class="clickable-area indice_1" onclick="location.href='indices/indice_enigme_statues_1.php';"></div>
             <div class="clickable-area indice_2" onclick="location.href='indices/indice_enigme_statues_2.php';"></div>

@@ -18,6 +18,8 @@
 
         Cet escape game peut être réalisé seul ou accompagné <br><br>
 
-        <a href="map.php">Suivant</a> </center>
+        Les 2 heures se déclancheront quand vous cliquerez sur "commencer" <br><br>
+
+        <a href="map.php">Commencer</a></center>
     </body>
 </html>

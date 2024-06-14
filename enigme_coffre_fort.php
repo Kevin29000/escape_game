@@ -8,6 +8,23 @@
         </title>
     </head>
     <body>
+        <div id="countdown">
+            <div class="tag_countdown">
+                <span class="label_countdown">Temps restant</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Heures</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Minutes</span>
+            </div>
+            <div class="tag_countdown">
+                <span class="value_countdown">--</span>
+                <span class="label_countdown">Secondes</span>
+            </div>
+        </div> 
         <form name="enigme_coffre_fort"> <!-- <form action="verification/verification_enigme_coffre_fort.php" target="" method="post"> -->
             Vous entrez dans une pièces vide avec seulement un grand coffre au centre. <br>
             Pris de curiosité vous cherchez un moyen de l'ouvrir pour découvrir ce qu'il <br>
