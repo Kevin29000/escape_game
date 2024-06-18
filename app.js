@@ -104,6 +104,7 @@ function togglePopup2(){
 countdownDate.setHours(countdownDate.getHours() +2);
 let countdownTimestamp = countdownDate.getTime();*/
 
+/*
 document.addEventListener("DOMContentLoaded", function() {
     let countdownElement = document.querySelector("#countdown");
     let countdownDate;
@@ -115,6 +116,24 @@ document.addEventListener("DOMContentLoaded", function() {
         countdownDate = new Date();
         countdownDate.setHours(countdownDate.getHours() + 2);
         localStorage.setItem("countdownEnd", countdownDate.getTime())
+    }               // Initialisation du countdown V2 */
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    let countdownElement = document.querySelector("#countdown");
+    let countdownDate;
+
+    function startCountdown() {
+        countdownDate = new Date();
+        countdownDate.setHours(countdownDate.getHours() + 2);
+        localStorage.setItem("countdownEnd", countdownDate.getTime())
+    }
+    
+    if (localStorage.getItem("countdownEnd")) {
+        countdownDate = new Date(parseInt(localStorage.getItem("countdownEnd")));
+    }
+    else {
+        startCountdown();
     }
 
 let x = setInterval(function(){ // setInterval cré un interval d'une seconde pour rafréchir la variable
@@ -140,11 +159,21 @@ let x = setInterval(function(){ // setInterval cré un interval d'une seconde po
             <span class="value_countdown">${seconds}</span>
             <span class="label_countdown">Secondes</span>
         </div>
+        <button id="restartButton">Recommancer</a></button>
     `; // les deux `` servent à appeler une variable JavaScript dans une partie html avec : ${nom_variable}
+
+    document.getElementById("restartButton").addEventListener("click", function() {
+        window.location.href = "accueil.php"; // Il doit etre dans la même parenthèse que restartButton dans le innerHTML
+    });
 
     if(distance < 0){
         clearInterval(x);
         document.querySelector("#countdown").innerHTML = "<span class='countdown_end'>Le temps est écoulé !</span>";
     }
 }, 1000); // la seconde de l'interval
+
+    document.getElementById("startButton").addEventListener("click", function() {
+        startCountdown();
+        window.location.href = "map.php"; // Pour changer de page
+    });
 });

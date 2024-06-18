@@ -24,6 +24,7 @@
                 <span class="value_countdown">--</span>
                 <span class="label_countdown">Secondes</span>
             </div>
+            <button id="restartButton">Recommancer</a></button>
         </div> 
         <center> « dans ce défilé, léonidaS et ses sPartiates mOntrèrent un Héroïsme immortel face à une armée imMense, tenant couRageusement jusqu'à la dErnière heure et LaissanT une mémoire indélébilE de loYauté »<br><br>
  

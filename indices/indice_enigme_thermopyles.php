@@ -24,6 +24,7 @@
                 <span class="value_countdown">--</span>
                 <span class="label_countdown">Secondes</span>
             </div>
+            <button id="restartButton">Recommancer</a></button>
         </div> 
         <center> Ici, ils sont tombés, 300 braves qui n'ont jamais cédé.<br><br>
  

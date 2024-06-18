@@ -24,6 +24,7 @@
                 <span class="value_countdown">--</span>
                 <span class="label_countdown">Secondes</span>
             </div>
+            <button id="restartButton">Recommancer</a></button>
         </div> 
         Un très ancien voyageur anonyme à laisser cette carte antique. Des indices sont dispersés un peut partout dans la pièce, des parchemins ou il <br>
         raconte son parcours à travers le monde antique.

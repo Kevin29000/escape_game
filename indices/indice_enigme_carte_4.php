@@ -24,6 +24,7 @@
                 <span class="value_countdown">--</span>
                 <span class="label_countdown">Secondes</span>
             </div>
+            <button id="restartButton">Recommancer</a></button>
         </div> 
         <center> "La Macédoine est une région montagneuse située au nord de la Grèce, habitée par un peuple guerrier et fier, connu sous le nom de Macédoniens." <br><br>
         "Les Macédoniens sont réputés pour leur courage au combat et leur loyauté envers leur roi. Ils constituent une force redoutable sur le champ de bataille." <br><br>

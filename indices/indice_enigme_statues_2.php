@@ -24,6 +24,7 @@
                 <span class="value_countdown">--</span>
                 <span class="label_countdown">Secondes</span>
             </div>
+            <button id="restartButton">Recommancer</a></button>
         </div> 
         <center>"La déesse de la chasse veille loin du roi et de la sagesse."<br><br>
  

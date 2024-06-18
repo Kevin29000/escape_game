@@ -24,6 +24,7 @@
                 <span class="value_countdown">--</span>
                 <span class="label_countdown">Secondes</span>
             </div>
+            <button id="restartButton">Recommancer</a></button>
         </div> 
         <form name="enigme_coffre_fort"> <!-- <form action="verification/verification_enigme_coffre_fort.php" target="" method="post"> -->
             Vous entrez dans une pièces vide avec seulement un grand coffre au centre. <br>

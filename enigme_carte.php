@@ -24,6 +24,7 @@
                 <span class="value_countdown">--</span>
                 <span class="label_countdown">Secondes</span>
             </div>
+            <button id="restartButton">Recommancer</a></button>
         </div> 
         <form name="enigme_carte" action="#"><!-- <form action="verification/verification_enigme_carte.php" target="" method="post"> -->
             Un très ancien voyageur anonyme à laisser cette carte antique accompagné d'un parchemin ou il <br>

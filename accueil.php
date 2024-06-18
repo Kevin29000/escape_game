@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="layout/layout_accueil.css">
+        <script src="app.js"></script>
         <title>
             Escape Game | Accueil
         </title>
@@ -20,6 +21,6 @@
 
         Les 2 heures se déclancheront quand vous cliquerez sur "commencer" <br><br>
 
-        <a href="map.php">Commencer</a></center>
+        <button id="startButton">Commencer</button></center>
     </body>
 </html>

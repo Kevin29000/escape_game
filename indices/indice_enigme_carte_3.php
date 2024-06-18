@@ -24,6 +24,7 @@
                 <span class="value_countdown">--</span>
                 <span class="label_countdown">Secondes</span>
             </div>
+            <button id="restartButton">Recommancer</a></button>
         </div> 
         <center> "Babylone est une ville extraordinaire, avec ses murailles massives et ses jardins suspendus, qui sont considérés comme l'une des sept merveilles du monde antique." <br><br>
         "Les habitants de Babylone sont réputés pour leur ingéniosité et leur savoir-faire en matière d'irrigation, ce qui leur permet de cultiver des terres fertiles dans une région aride." <br><br>

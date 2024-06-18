@@ -24,6 +24,7 @@
                 <span class="value_countdown">--</span>
                 <span class="label_countdown">Secondes</span>
             </div>
+            <button id="restartButton">Recommancer</a></button>
         </div> 
         <center> "Les pyramides, qui sont très grandes et admirables à voir, n'ont pas été construites par le travail forcé, comme on le dit, mais par une multitude de travailleurs répartis par groupe pour un court laps de temps"<br><br>
         "Les pyramides, que j'ai vu de mes propres yeux, sont des monuments bien plus étonnants que tout ce qu'on m'avait dit à leur sujet."<br><br>

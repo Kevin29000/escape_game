@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="layout/layout_map.css">
-        <script src="app.js"></script>
+        <script src="app.js" defer></script>
         <title>
             Escape Game | Carte
         </title>
@@ -24,7 +24,9 @@
                 <span class="value_countdown">--</span>
                 <span class="label_countdown">Secondes</span>
             </div>
-        </div>  
+            <button id="restartButton">Recommancer</a></button>
+        </div>
+
         <p class="text">Votre exploration est limitée au premier étage du au mauvais état des escaliers et des étages supérieurs</p>
 
         <div class="map-container">
@@ -34,7 +36,5 @@
             <div class="clickable-area auting-room" onclick="location.href='enigme_thermopyles.php';"></div>
             <div class="clickable-area droiwing-room" onclick="location.href='enigme_coffre_fort.php';"></div>
         </div>
-
-        <a href="accueil.php">Accueil</a>
     </body>
 </html>

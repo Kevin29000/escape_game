@@ -24,6 +24,7 @@
                 <span class="value_countdown">--</span>
                 <span class="label_countdown">Secondes</span>
             </div>
+            <button id="restartButton">Recommancer</a></button>
         </div> 
         <center> Les Perses ont, je le sais, les coutumes suivantes : ils n'élèvent aux dieux ni statues, ni temples, ni autel et traitent d'insensés ceux qui leur en élèvent, <br>
         c'est je pense, qu'ils n'ont jamais attribué de forme humaine à leur dieux, comme le font les Grecs. Ils ont coutume d'offrir des sacrifices à Zeus au sommet des montagnes <br>
